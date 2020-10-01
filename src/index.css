@@ -1,0 +1,164 @@
+/*
+#293241
+#3d5a80
+#98c1d9
+#e0fbfc
+#ee6c4d
+
+#f0f2f5
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#body {
+	background-color: #f0f2f5;
+
+}
+
+.navbar-custom {
+	background-color: #3d5a80;
+	color: #fff;
+	box-shadow: 1px 2px 4px #333;
+    /*z-index:999;*/
+}
+
+.navbar-custom .container-fluid {
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+.navbar-custom a, i {
+	color: #fff;
+	font-weight: 500;
+	margin-right: 16px;
+}
+
+.navbar-custom a:hover {
+	color: #e0fbfc;
+}
+
+.navbar-custom .dropdown-menu {
+	background-color: #3d5a80;
+	color: #fff; 
+}
+
+/*.navbar-custom .dropdown {
+	margin-right: 40px;
+}*/
+
+.navbar-custom .dropdown-menu a:hover {
+	background-color: #3d5a80;
+	color: #e0fbfc;
+}
+
+.navbar-custom .active-link {
+	color: #ee6c4d;
+	border-bottom: 2px solid #e0fbfc;
+}
+
+.total h3 {
+	font-weight: bold;
+	font-size: 2.2rem;
+	padding: 4px 0px 4px 0px;
+}
+
+.total .total-div {
+	background-color: #fff;
+	box-shadow: -2px 6px 7px -7px #333;
+	padding: 18px;
+	border-radius: 20px;
+}
+
+
+.total .total-div h4 {
+	font-weight: 500;
+	font-size: 2.2rem;
+}
+
+.total .total-div span {
+	font-weight: 500;
+	font-size: 2.5rem;
+	/*color: #ee6c4d;*/
+}
+
+.province h4 {
+	font-weight: bold;
+	font-size: 2.2rem;
+	padding: 4px 0px 4px 0px;
+}
+
+.province .province-div {
+	background-color: #fff;
+	box-shadow: -2px 6px 7px -7px #333;
+	padding: 18px;
+	border-radius: 20px;
+}
+
+
+.province .province-div h5 {
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.province .province-div span {
+	font-weight: 500;
+	font-size: 1.7rem;
+	/*color: #ee6c4d;*/
+}
+
+.gender h4 {
+	font-weight: bold;
+	font-size: 2.2rem;
+	padding: 4px 0px 4px 0px;
+}
+
+.gender .gender-div {
+	background-color: #fff;
+	box-shadow: -2px 6px 7px -7px #333;
+	padding: 18px;
+	border-radius: 20px;
+}
+
+
+.gender .gender-div h5 {
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.gender .gender-div span {
+	font-weight: 500;
+	font-size: 1.7rem;
+	/*color: #ee6c4d;*/
+}
+
+.footer {
+	width: 100%;
+	padding: 20px;
+	background-color: #3d5a80;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.footer .col-10, .footer .col-md-6 {
+	margin-top: 16px;
+}
+
+.footer a {
+	color: #fff;
+	/*text-align: center;*/
+	text-decoration: none;
+}
+
+
+.footer a:hover {
+	color: #fff;
+}
+
+.total-div small {
+    font-weight: bold;
+    font-size: 22px;
+}
